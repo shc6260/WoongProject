@@ -8,6 +8,7 @@ namespace WoongWpfStudyProject.Types
 {
     public enum FunctionsType
     {
-        test
+        test,
+        ex1
     }
 }

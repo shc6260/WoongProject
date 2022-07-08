@@ -60,6 +60,9 @@ namespace WoongWpfStudyProject.ViewModels.Main
                 case FunctionsType.test:
                     MainContentViewModel.Content = new ExampleViewModel();
                     break;
+                case FunctionsType.ex1:
+                    MainContentViewModel.Content = new Ex1ViewModel();
+                    break;
             }
         }
     }

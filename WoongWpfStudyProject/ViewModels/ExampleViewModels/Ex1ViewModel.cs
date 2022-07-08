@@ -10,20 +10,8 @@ using WoongWpfStudyProject.ViewModels.Main;
 
 namespace WoongWpfStudyProject.ViewModels
 {
-    internal class ExampleViewModel : ViewModelBase
+    internal class Ex1ViewModel : ViewModelBase
     {
-        /*  public ExampleViewModel()
-          {
-              Text = "테스트입니다.";
-          }
-
-          private string _text;
-
-          public string Text
-          {
-              get => _text;
-              set => SetProperty(ref _text, value);
-          }*/
         private ICommand buttonNewCmd;
         public ICommand ButtonNewCmd => buttonNewCmd = buttonNewCmd ?? new RelayCommand(ButtonNewDataCmd, CanButtonCmdExe);
 
@@ -37,5 +25,6 @@ namespace WoongWpfStudyProject.ViewModels
 
             return true;
         }
+
     }
 }

@@ -25,6 +25,7 @@ namespace WoongWpfStudyProject.Managers
             var items = new List<FunctionListitemData>();
 
             items.Add(new FunctionListitemData(FunctionsType.test,"테스트입니다."));
+            items.Add(new FunctionListitemData(FunctionsType.test, "예제1 입니다."));
 
             return items;
         }
